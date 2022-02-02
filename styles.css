@@ -1,0 +1,50 @@
+li.done::after {
+    content: " \21E6";
+  }
+  
+  li {
+    list-style-type: none;
+   }
+  ul {
+    line-height: 1.8;
+  }
+
+  
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #dad2c1;
+}
+
+h1 {
+    color: rgb(42, 190, 158);
+    font-size: 2rem;
+}
+
+h2 {
+    color: 
+    rgb(124, 201, 52);
+}
+article {
+    width: 54rem;
+    padding: 1em 3em;
+    margin-bottom: 4rem;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fira Sans', sans-serif;
+}
